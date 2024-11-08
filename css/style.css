@@ -7,6 +7,11 @@
 		sans-serif;
 }
 
+html {
+  max-width: 100%;
+  overflow: hidden;
+}
+
 body {
 	display: flex;
 	min-height: 100svh;
@@ -19,6 +24,7 @@ body {
 		rgba(42, 0, 92, 1) 80%
 	);
 	padding: 1rem;
+  overflow: hidden;
 }
 
 .container {
@@ -81,6 +87,6 @@ body {
 	width: clamp(8rem, 8vw, 9rem);
 	aspect-ratio: 1 / 1;
 	background-color: hsl(189, 84%, 52%);
-  bottom: -2rem;
+  top: 2rem;
   right: -2rem;
 }
