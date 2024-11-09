@@ -8,8 +8,8 @@
 }
 
 html {
-  max-width: 100%;
-  overflow: hidden;
+	max-width: 100%;
+	overflow: hidden;
 }
 
 body {
@@ -24,14 +24,13 @@ body {
 		rgba(42, 0, 92, 1) 80%
 	);
 	padding: 1rem;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .container {
 	position: relative;
-	width: 100%;
+  width: 100%;
 	max-width: 26rem;
-	z-index: 999;
 }
 
 #clock {
@@ -39,26 +38,26 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	text-align: center;
-	border-radius: 0.5rem;
 	padding: 2rem;
+	border-radius: 0.5rem;
 	background-color: hsla(0, 0%, 100%, 0.1);
-  color: hsla(0, 0%, 100%, 1);
-  backdrop-filter: blur(1.5rem);
+	backdrop-filter: blur(1.5rem);
+	color: hsla(0, 0%, 100%, 1);
 
-  & > * {
-    user-select: none;
-  }
+	& > * {
+		user-select: none;
+	}
 
 	span {
 		font-weight: 700;
-    letter-spacing: .2rem;
+		letter-spacing: 0.2rem;
 		font-size: clamp(1.5rem, 10vw, 2.5rem);
 	}
 
 	h5 {
 		font-weight: 400;
-    letter-spacing: .25rem;
-		font-size: clamp(.75rem, 3vw, 1rem);
+		letter-spacing: 0.25rem;
+		font-size: clamp(0.75rem, 3vw, 1rem);
 	}
 
 	p {
@@ -78,8 +77,8 @@ body {
 	width: clamp(8rem, 8vw, 9rem);
 	aspect-ratio: 1 / 1;
 	background-color: hsl(0, 72%, 52%);
-  top: -2rem;
-  left: -5rem;
+	top: -2rem;
+	left: -5rem;
 }
 
 #circle {
@@ -87,6 +86,6 @@ body {
 	width: clamp(8rem, 8vw, 9rem);
 	aspect-ratio: 1 / 1;
 	background-color: hsl(189, 84%, 52%);
-  top: 2rem;
-  right: -2rem;
+	top: 2rem;
+	right: -2rem;
 }
